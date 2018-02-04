@@ -1,0 +1,243 @@
+
+.mainBase{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 800px;
+	background-color: transparent;
+	z-index: 1px;
+}
+.centerDiv{
+	position: absolute;
+	top: 50px;
+	left: calc((100% - 700px)/2);
+	width: 700px;
+	height: 700px;
+	background-color: transparent;
+	border: 1px skyblue;
+	box-shadow: 3px 3px 10px black;
+	opacity: 1;
+	z-index: 2px;
+}
+
+.titlePage{
+	position: relative;
+	font-size: 30px;
+	font-style: italic;
+	color: #7a543d;
+	text-shadow: 3px 3px 10px #00BCD4;
+	margin-left: 50px;
+}
+.address{
+	position: relative;
+	margin-left: 50px;
+	font-size: 20px;
+	font-family: Brush Script MT;
+}
+.menuItem{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 41px;
+	background-color: transparent;
+}
+.linker{
+	position: relative;
+	top: 10px;
+	left: 5px;
+	text-decoration: none;
+	color: white;
+	padding: 6px 40px;
+	background-color:transparent;
+}
+
+
+.linker:hover{
+	position: relative;
+	top: 10px;
+	left: 5px;
+	text-decoration: none;
+	color: white;
+	padding: 6px 40px;
+	background-color: white;
+	opacity: 0.6;
+	cursor: pointer;
+}
+.iframe{
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 95%;
+	height: 500px;
+	border: none;
+}
+.loginBase{
+	position: fixed;
+	display: none;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	z-index: 100;
+}
+.form{
+	position: relative;
+	top: 160px;
+	left: calc((100% - 300px)/2);
+	width: 300px;
+	height: 200px;
+	background: white;
+	border: 2px solid rgba(90,90,90,.05);
+	border-radius: 6px;
+}
+.loginHeaderBase{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	background: transparent;
+}
+.loginText{
+	font-size: 20px;
+	font-style: bolder;
+	color: rgb(255, 0, 0);
+	text-shadow: 1px 1px 1px black;
+}
+.submit{
+	position: relative;
+	background: rgba(53,67,12,0.9);
+	color: white;
+	padding: 6px 24px;
+	border: none;
+}
+#menu{
+	position: relative;
+	top: -4px;
+	left: 0px;
+	width: 100%;
+	height: 307px;
+	background-color: transparent;
+	overflow: auto;
+}
+.foodName{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	background-color: red;
+	padding: 6px 0px;
+}
+#form{
+	position: relative;
+	padding: 20px;
+	border-radius: 4px;
+	top: 100px;
+	left: 50px;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border: 1px solid rgba(123,123,123,0.6);
+	box-shadow: 3px 3px 10px gray;
+}
+#reg{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 6px 0px;
+}
+.table{
+	margin-top: 40px;
+}
+.labels{
+	font-family: sans-serif;
+	color: rgba(90,90,90,0.9);
+
+}
+.regis{
+	position: relative;
+	float: right;
+	background-color: black;
+	color: white;
+	padding: 6px 30px;
+	border: none;
+}
+.regis:hover{
+	background-color: rgba(90,90,90,0.5);
+}
+#form{
+	position: relative;
+	padding: 20px;
+	border-radius: 4px;
+	top: 100px;
+	left: 50px;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border: 1px solid rgba(123,123,123,0.6);
+	box-shadow: 3px 3px 10px gray;
+}
+#submit{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background-color: green;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 6px 0px;
+}
+.table{
+	margin-top: 40px;
+}
+.labels{
+	font-family: sans-serif;
+	color: rgba(90,90,90,0.9);
+
+}
+.submit{
+	position: relative;
+	float: right;
+	background-color: green;
+	color: white;
+	padding: 6px 30px;
+	border: none;
+}
+.submit:hover{
+	background-color: rgba(90,90,90,0.5);
+}
+#message{
+	font-family: sans-serif;
+	color: rgba(90,90,90,0.9);
+	padding: 40px 60px;
+
+}
+.topic{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	background-color: transparent;
+	padding: 6px 0px;
+}
